@@ -6,4 +6,5 @@ The application has an endpoint localhost:8000/receipt generating a receipt in J
 There is also a small panel where you can add products using a form on localhost:8000/
 
 To generate a receipt you need to provide a list of products. 
+
 Example: localhost:8000/receipt?list=Steak,Bread,Cereals,Milk
