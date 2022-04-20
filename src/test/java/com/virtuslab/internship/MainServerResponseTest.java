@@ -47,7 +47,7 @@ public class MainServerResponseTest {
 
         String list = "?list=" + onion.name() + "," + bread.name() + "," + bread.name() + "," + cereals.name() + "," + steak.name();
 
-        MvcResult response = this.mvc.perform(MockMvcRequestBuilders.get("/receipt/" + list) //getting endopint response
+        MvcResult response = this.mvc.perform(MockMvcRequestBuilders.get("/receipt/" + list) //getting endpoint response
                 .contentType(MediaType.APPLICATION_JSON)
                 .accept("application/json")).andReturn();
 

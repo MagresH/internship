@@ -17,7 +17,6 @@ public class FifteenPercentDiscountTest {
         // Given
         var productDb = new ProductDb();
         var steak = productDb.getProduct("Steak");
-        var milk = productDb.getProduct("Milk");
         var bread = productDb.getProduct("Bread");
         var cereals = productDb.getProduct("Cereals");
         List<ReceiptEntry> receiptEntries = new ArrayList<>();
