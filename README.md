@@ -7,4 +7,4 @@ There is also a small panel where you can add products using a form on localhost
 
 To generate a receipt you need to provide a list of products. 
 
-Example: localhost:8000/receipt?list=Steak,Bread,Cereals,Milk
+Example: localhost:8000/receipt?list=Steak,Bread,Bread,Cereals,Milk
